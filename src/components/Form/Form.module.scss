@@ -1,0 +1,20 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+}
+
+.inputName {
+  margin-bottom: 3px;
+
+  font-size: 14px;
+}
+
+.input {
+  padding: 5px;
+  border: 1px solid #ff6600;
+
+  background-color: transparent;
+  color: #ffffff;
+}

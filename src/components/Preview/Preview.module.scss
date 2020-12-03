@@ -1,0 +1,59 @@
+.banner {
+  position: relative;
+
+  width: 140px;
+  height: 190px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+
+  @media (min-width: 768px) {
+    margin-bottom: unset;
+  }
+}
+
+.image {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+
+  width: 90px;
+  height: 90px;
+
+  object-fit: cover;
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+
+  max-height: 63px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #ffffff;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    margin-bottom: unset;
+  }
+}
+
+.button {
+  width: 95px;
+
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+}
